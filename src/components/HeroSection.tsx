@@ -51,7 +51,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-6 text-lg md:text-xl text-muted-foreground font-body max-w-2xl mx-auto text-balance"
+            className="mt-6 text-lg md:text-xl text-foreground/80 font-body max-w-2xl mx-auto text-balance drop-shadow-sm"
           >
             Estudios genéticos clínicos interpretados por genetistas expertos.
             Obtén un diagnóstico preciso, un plan de acción personalizado
