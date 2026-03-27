@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ShieldCheck, Clock, Award } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const badges = [
   { icon: ShieldCheck, text: "Acreditado ISO 15189" },
@@ -11,10 +12,16 @@ const badges = [
 const HeroSection = () => {
   return (
     <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
-      {/* Background decoration */}
+      {/* Background image */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-primary/5 blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-accent/10 blur-3xl" />
+        <img
+          src={heroBg}
+          alt="Madre con bebé y deportista representando genética y salud"
+          width={1920}
+          height={1080}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-background/85 backdrop-blur-sm" />
       </div>
 
       <div className="container mx-auto px-4">
