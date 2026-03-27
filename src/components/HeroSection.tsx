@@ -41,7 +41,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-6 text-4xl md:text-6xl font-bold font-display leading-tight text-foreground text-balance"
+            className="mt-6 text-4xl md:text-6xl font-bold font-display leading-tight text-foreground text-balance drop-shadow-md"
           >
             Descubre las respuestas que tu{" "}
             <span className="gradient-text">ADN</span> tiene para ti
