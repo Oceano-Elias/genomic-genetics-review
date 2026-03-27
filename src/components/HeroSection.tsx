@@ -21,7 +21,7 @@ const HeroSection = () => {
           height={1080}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-background/60" />
+        <div className="absolute inset-0 bg-background/75" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -41,7 +41,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-6 text-4xl md:text-6xl font-bold font-display leading-tight text-foreground text-balance"
+            className="mt-6 text-4xl md:text-6xl font-bold font-display leading-tight text-foreground text-balance drop-shadow-md"
           >
             Descubre las respuestas que tu{" "}
             <span className="gradient-text">ADN</span> tiene para ti
@@ -51,7 +51,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="mt-6 text-lg md:text-xl text-muted-foreground font-body max-w-2xl mx-auto text-balance"
+            className="mt-6 text-lg md:text-xl text-foreground/80 font-body max-w-2xl mx-auto text-balance drop-shadow-sm"
           >
             Estudios genéticos clínicos interpretados por genetistas expertos.
             Obtén un diagnóstico preciso, un plan de acción personalizado
